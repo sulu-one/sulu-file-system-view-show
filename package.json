@@ -2,7 +2,7 @@
   "suluPackage": true,
   "name": "sulu-file-system-view-show",
   "description": "Open Explorer, Finder or any other System-FileExplorer application in current directory of SULU",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
