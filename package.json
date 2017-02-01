@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "ctrl+e" , 
-        "function" : "showItemInFolder"
+        "key": "ctrl+e",
+        "function": "showItemInFolder"
       }
     ]
-  }, 
+  },
   "name": "sulu-file-system-view-show",
   "description": "Open Explorer, Finder or any other System-FileExplorer application in current directory of SULU",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
