@@ -25,7 +25,6 @@ Command.prototype.showItemInFolder = function showItemInFolder() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("ctrl+e", this.command.showItemInFolder);
 };
 
 module.exports = Plugin;
